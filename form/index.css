@@ -1,0 +1,39 @@
+body{
+  display: flex;
+  justify-content: center;
+  padding-block: 10vh;
+  background-color: rgb(56, 49, 49);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap:0.5rem;
+  border: 3px solid black;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+form label{
+  display: block;
+}
+
+form div{
+  border-bottom: 1px;
+ }
+
+form button{
+  padding-inline: 10px;
+  padding-block: 2px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+
+  &:active{
+    background-color:black;
+    border:1px solid rgb(21, 65, 187);
+    color:white
+  }
+ }
